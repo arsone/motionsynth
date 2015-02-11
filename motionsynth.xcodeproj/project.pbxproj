@@ -30,14 +30,10 @@
 		B3FFE7EB1A8BCB2B00CB45F6 /* libcsound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FFE6BA1A8BCB2B00CB45F6 /* libcsound.a */; };
 		B3FFE7EC1A8BCB2B00CB45F6 /* libsndfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FFE6BB1A8BCB2B00CB45F6 /* libsndfile.a */; };
 		B3FFE7ED1A8BCB2B00CB45F6 /* LICENSE.TXT in Resources */ = {isa = PBXBuildFile; fileRef = B3FFE6BC1A8BCB2B00CB45F6 /* LICENSE.TXT */; };
-		B3FFE7EE1A8BCB2B00CB45F6 /* AKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FFE6BF1A8BCB2B00CB45F6 /* AKTools.m */; };
-		B3FFE7EF1A8BCB2B00CB45F6 /* CsoundLib64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FFE6C11A8BCB2B00CB45F6 /* CsoundLib64.framework */; };
-		B3FFE7F01A8BCB2B00CB45F6 /* CsoundObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FFE6C31A8BCB2B00CB45F6 /* CsoundObj.m */; };
 		B3FFE7F11A8BCB2B00CB45F6 /* 808loop.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3FFE6C51A8BCB2B00CB45F6 /* 808loop.wav */; };
 		B3FFE7F21A8BCB2B00CB45F6 /* mandpluk.aif in Resources */ = {isa = PBXBuildFile; fileRef = B3FFE6C61A8BCB2B00CB45F6 /* mandpluk.aif */; };
 		B3FFE7F31A8BCB2B00CB45F6 /* marmstk1.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3FFE6C71A8BCB2B00CB45F6 /* marmstk1.wav */; };
 		B3FFE7F41A8BCB2B00CB45F6 /* PianoBassDrumLoop.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3FFE6C81A8BCB2B00CB45F6 /* PianoBassDrumLoop.wav */; };
-		B3FFE7F51A8BCB2B00CB45F6 /* AudioKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FFE6CA1A8BCB2B00CB45F6 /* AudioKit.swift */; };
 		B3FFE7F61A8BCB2B00CB45F6 /* AKParameter+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FFE6CD1A8BCB2B00CB45F6 /* AKParameter+Operation.m */; };
 		B3FFE7F71A8BCB2B00CB45F6 /* AKTrackedAmplitude.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FFE6D01A8BCB2B00CB45F6 /* AKTrackedAmplitude.m */; };
 		B3FFE7F81A8BCB2B00CB45F6 /* AKTrackedAmplitudeFromFSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FFE6D21A8BCB2B00CB45F6 /* AKTrackedAmplitudeFromFSignal.m */; };
@@ -244,16 +240,10 @@
 		B3FFE6BA1A8BCB2B00CB45F6 /* libcsound.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcsound.a; sourceTree = "<group>"; };
 		B3FFE6BB1A8BCB2B00CB45F6 /* libsndfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsndfile.a; sourceTree = "<group>"; };
 		B3FFE6BC1A8BCB2B00CB45F6 /* LICENSE.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.TXT; sourceTree = "<group>"; };
-		B3FFE6BE1A8BCB2B00CB45F6 /* AKTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTools.h; sourceTree = "<group>"; };
-		B3FFE6BF1A8BCB2B00CB45F6 /* AKTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTools.m; sourceTree = "<group>"; };
-		B3FFE6C11A8BCB2B00CB45F6 /* CsoundLib64.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CsoundLib64.framework; sourceTree = "<group>"; };
-		B3FFE6C21A8BCB2B00CB45F6 /* CsoundObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsoundObj.h; sourceTree = "<group>"; };
-		B3FFE6C31A8BCB2B00CB45F6 /* CsoundObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CsoundObj.m; sourceTree = "<group>"; };
 		B3FFE6C51A8BCB2B00CB45F6 /* 808loop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 808loop.wav; sourceTree = "<group>"; };
 		B3FFE6C61A8BCB2B00CB45F6 /* mandpluk.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = mandpluk.aif; sourceTree = "<group>"; };
 		B3FFE6C71A8BCB2B00CB45F6 /* marmstk1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = marmstk1.wav; sourceTree = "<group>"; };
 		B3FFE6C81A8BCB2B00CB45F6 /* PianoBassDrumLoop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PianoBassDrumLoop.wav; sourceTree = "<group>"; };
-		B3FFE6CA1A8BCB2B00CB45F6 /* AudioKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioKit.swift; sourceTree = "<group>"; };
 		B3FFE6CC1A8BCB2B00CB45F6 /* AKParameter+Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AKParameter+Operation.h"; sourceTree = "<group>"; };
 		B3FFE6CD1A8BCB2B00CB45F6 /* AKParameter+Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AKParameter+Operation.m"; sourceTree = "<group>"; };
 		B3FFE6CF1A8BCB2B00CB45F6 /* AKTrackedAmplitude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTrackedAmplitude.h; sourceTree = "<group>"; };
@@ -511,7 +501,6 @@
 			files = (
 				B3FFE7EC1A8BCB2B00CB45F6 /* libsndfile.a in Frameworks */,
 				B3FFE67D1A8BC4CC00CB45F6 /* CoreMotion.framework in Frameworks */,
-				B3FFE7EF1A8BCB2B00CB45F6 /* CsoundLib64.framework in Frameworks */,
 				B3FFE7EB1A8BCB2B00CB45F6 /* libcsound.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -634,9 +623,7 @@
 			isa = PBXGroup;
 			children = (
 				B3FFE6971A8BCB2B00CB45F6 /* iOS */,
-				B3FFE6BD1A8BCB2B00CB45F6 /* OSX */,
 				B3FFE6C41A8BCB2B00CB45F6 /* Sound Files */,
-				B3FFE6C91A8BCB2B00CB45F6 /* Swift */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -713,26 +700,6 @@
 			path = libs;
 			sourceTree = "<group>";
 		};
-		B3FFE6BD1A8BCB2B00CB45F6 /* OSX */ = {
-			isa = PBXGroup;
-			children = (
-				B3FFE6BE1A8BCB2B00CB45F6 /* AKTools.h */,
-				B3FFE6BF1A8BCB2B00CB45F6 /* AKTools.m */,
-				B3FFE6C01A8BCB2B00CB45F6 /* csound-OSX */,
-			);
-			path = OSX;
-			sourceTree = "<group>";
-		};
-		B3FFE6C01A8BCB2B00CB45F6 /* csound-OSX */ = {
-			isa = PBXGroup;
-			children = (
-				B3FFE6C11A8BCB2B00CB45F6 /* CsoundLib64.framework */,
-				B3FFE6C21A8BCB2B00CB45F6 /* CsoundObj.h */,
-				B3FFE6C31A8BCB2B00CB45F6 /* CsoundObj.m */,
-			);
-			path = "csound-OSX";
-			sourceTree = "<group>";
-		};
 		B3FFE6C41A8BCB2B00CB45F6 /* Sound Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -742,14 +709,6 @@
 				B3FFE6C81A8BCB2B00CB45F6 /* PianoBassDrumLoop.wav */,
 			);
 			path = "Sound Files";
-			sourceTree = "<group>";
-		};
-		B3FFE6C91A8BCB2B00CB45F6 /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				B3FFE6CA1A8BCB2B00CB45F6 /* AudioKit.swift */,
-			);
-			path = Swift;
 			sourceTree = "<group>";
 		};
 		B3FFE6CB1A8BCB2B00CB45F6 /* Operations */ = {
@@ -1354,7 +1313,6 @@
 				B3FFE80C1A8BCB2B00CB45F6 /* AKRandomDistributionTable.m in Sources */,
 				B3FFE83B1A8BCB2B00CB45F6 /* AKInterpolatedRandomNumberPulse.m in Sources */,
 				B3FFE8471A8BCB2B00CB45F6 /* AKStereoConvolution.m in Sources */,
-				B3FFE7EE1A8BCB2B00CB45F6 /* AKTools.m in Sources */,
 				B3FFE86E1A8BCB2B00CB45F6 /* AKNoteProperty.m in Sources */,
 				B3FFE82E1A8BCB2B00CB45F6 /* AKCabasa.m in Sources */,
 				B3FFE8561A8BCB2B00CB45F6 /* AKMoogLadder.m in Sources */,
@@ -1457,13 +1415,11 @@
 				B3FFE82A1A8BCB2B00CB45F6 /* AKPluckedString.m in Sources */,
 				B3FFE84A1A8BCB2B00CB45F6 /* AKVariableDelay.m in Sources */,
 				B3FFE85A1A8BCB2B00CB45F6 /* AKVariableFrequencyResponseBandPassFilter.m in Sources */,
-				B3FFE7F01A8BCB2B00CB45F6 /* CsoundObj.m in Sources */,
 				B3FFE8631A8BCB2B00CB45F6 /* AKBalance.m in Sources */,
 				B3FFE80B1A8BCB2B00CB45F6 /* AKLineSegments.m in Sources */,
 				B3FFE8591A8BCB2B00CB45F6 /* AKThreePoleLowpassFilter.m in Sources */,
 				B3FFE8091A8BCB2B00CB45F6 /* AKExponentialCurves.m in Sources */,
 				B3FFE8041A8BCB2B00CB45F6 /* AKTableValue.m in Sources */,
-				B3FFE7F51A8BCB2B00CB45F6 /* AudioKit.swift in Sources */,
 				B3FFE8151A8BCB2B00CB45F6 /* AKMinimum.m in Sources */,
 				B3FFE8461A8BCB2B00CB45F6 /* AKConvolution.m in Sources */,
 				B3FFE84F1A8BCB2B00CB45F6 /* AKDCBlock.m in Sources */,
