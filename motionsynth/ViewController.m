@@ -7,20 +7,28 @@
 //
 
 #import "ViewController.h"
+#import "AKLFO.h"
+#import "AKTools.h"
 
 @interface ViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ViewController {
+    AKLowFrequencyOscillator *akLFO;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    currentMaxRotX = 0;
-    currentMaxRotY = 0;
-    currentMaxRotZ = 0;
+    akLFO = [[AKLowFrequencyOscillator alloc] init];
+    [AKOrchestra addInstrument:akLFO];
+    [AKOrchestra start];
+    
+    currentMaxRotX = 0.0;
+    currentMaxRotY = 0.0;
+    currentMaxRotZ = 0.0;
     
     self.motionManager = [[CMMotionManager alloc] init];
     self.motionManager.gyroUpdateInterval = .2;
@@ -31,6 +39,7 @@
 }
 
 - (void)outputRotationData:(CMRotationRate)rotation {
+    [AKTools setProperty:akLFO.frequency withSlider:(UISlider *)sender];
     self.rotX.text = [NSString stringWithFormat:@" %.2fr/s", rotation.x];
     if(fabs(rotation.x) > fabs(currentMaxRotX))
     {
@@ -52,6 +61,12 @@
     self.maxRotX.text = [NSString stringWithFormat:@" %.2f", currentMaxRotX];
     self.maxRotY.text = [NSString stringWithFormat:@" %.2f", currentMaxRotY];
     self.maxRotZ.text = [NSString stringWithFormat:@" %.2f", currentMaxRotZ];
+}
+
+- (IBAction)resetMaxValues:(id)sender {
+    currentMaxRotX = 0.0;
+    currentMaxRotY = 0.0;
+    currentMaxRotZ = 0.0;
 }
 
 - (void)didReceiveMemoryWarning {
