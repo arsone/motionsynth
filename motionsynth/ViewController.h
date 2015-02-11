@@ -7,8 +7,26 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
+
+double currentMaxRotX;
+double currentMaxRotY;
+double currentMaxRotZ;
+
 
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UILabel *rotX;
+@property (strong, nonatomic) IBOutlet UILabel *rotY;
+@property (strong, nonatomic) IBOutlet UILabel *rotZ;
+
+@property (strong, nonatomic) IBOutlet UILabel *maxRotX;
+@property (strong, nonatomic) IBOutlet UILabel *maxRotY;
+@property (strong, nonatomic) IBOutlet UILabel *maxRotZ;
+
+- (IBAction)resetMaxValues:(id)sender;
+
+@property (strong, nonatomic) CMMotionManager *motionManager;
 
 
 @end

@@ -14,6 +14,7 @@
 		B3FFE6641A8BC4B300CB45F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FFE6631A8BC4B300CB45F6 /* Images.xcassets */; };
 		B3FFE6671A8BC4B300CB45F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3FFE6651A8BC4B300CB45F6 /* LaunchScreen.xib */; };
 		B3FFE6731A8BC4B300CB45F6 /* motionsynthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FFE6721A8BC4B300CB45F6 /* motionsynthTests.m */; };
+		B3FFE67D1A8BC4CC00CB45F6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FFE67C1A8BC4CC00CB45F6 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		B3FFE66C1A8BC4B300CB45F6 /* motionsynthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motionsynthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FFE6711A8BC4B300CB45F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3FFE6721A8BC4B300CB45F6 /* motionsynthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = motionsynthTests.m; sourceTree = "<group>"; };
+		B3FFE67C1A8BC4CC00CB45F6 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3FFE67D1A8BC4CC00CB45F6 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		B3FFE64A1A8BC4B300CB45F6 = {
 			isa = PBXGroup;
 			children = (
+				B3FFE67C1A8BC4CC00CB45F6 /* CoreMotion.framework */,
 				B3FFE6551A8BC4B300CB45F6 /* motionsynth */,
 				B3FFE66F1A8BC4B300CB45F6 /* motionsynthTests */,
 				B3FFE6541A8BC4B300CB45F6 /* Products */,
